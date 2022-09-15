@@ -1,0 +1,17 @@
+{
+  "name": "code-patch-plugin",
+  "version": "1.0.1",
+  "description": "This is a plug-in created by shanks",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {},
+  "dependencies": {
+    "html-minifier": "^4.0.0",
+    "uglify-js": "^3.17.0",
+    "cheerio": "^1.0.0-rc.12"
+  }
+}
