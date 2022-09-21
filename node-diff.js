@@ -11,7 +11,7 @@ if(packageJAONdiffMessage) {
     postMessage(name, packageJAONdiffMessage)
 }
 async function postMessage(name, text) {
-    const content = `【${dingtalkKey}】\n ****用户（${name}）**** \n ****项目（${__dirname.split('\\')[__dirname.split('\\').length - 1]}）****修改了package.json文件 ***** \n ${text}`
+    const content = `【${dingtalkKey}】\n ****用户（${name}）**** \n ****项目（${__dirname.split('\\')[__dirname.split('\\').length - 1]}）**** \n ****修改了package.json文件 ***** \n ${text}`
     axios.post(`https://oapi.dingtalk.com/robot/send?access_token=${accessToken}`, {
         "msgtype": "text",
         "text": {
