@@ -10,8 +10,9 @@
   "license": "ISC",
   "devDependencies": {},
   "dependencies": {
+    "babel-core": "^6.26.3",
+    "cheerio": "^1.0.0-rc.12",
     "html-minifier": "^4.0.0",
-    "uglify-js": "^3.17.0",
-    "cheerio": "^1.0.0-rc.12"
+    "uglify-js": "^3.17.0"
   }
 }

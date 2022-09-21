@@ -4,7 +4,7 @@ module.exports = defineConfig({
   transpileDependencies: true,
   configureWebpack: {
     plugins: [
-      new CodePatchPlugin({url: 'test.com'})
+      new CodePatchPlugin({noEs6: true})
     ] //插件
   }
 })
