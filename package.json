@@ -44,6 +44,6 @@
     "not ie 11"
   ],
   "gitHooks": {
-    "pre-commit": "npm run diff"
+    "pre-commit": "node ./commit-warning.js"
   }
 }
