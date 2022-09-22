@@ -14,10 +14,13 @@ if(packageJAONdiffMessage) {
     process.exit(0)
 }
 async function postMessage(name, branch, text) {
-    const content = `【${dingtalkKey}】\n ****用户（${name}）**** \n 
-        ****项目（${processRootDir.split('\\')[processRootDir.split('\\').length - 1]}）**** \n 
-        ****分支（${branch}）**** \n
-        ****修改了package.json文件 ***** \n ${text}`
+    const content = `
+        【${dingtalkKey}】
+        ****用户（${name}）****
+        ****项目（${processRootDir.split('\\')[processRootDir.split('\\').length - 1]}）****
+        ****分支（${branch}）****
+        ****修改了package.json文件 *****
+        ${text}`
     axios.post(`https://oapi.dingtalk.com/robot/send?access_token=${accessToken}`, {
         "msgtype": "text",
         "text": {
