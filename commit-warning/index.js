@@ -3,6 +3,7 @@ const axios = require('axios')
 const dingtalkKey = 'commit'
 const accessToken = '9e9d98d6e2d3b6ed5191d8749b72bef43b59dd459b01b02fb42a5a9b01056bcc'
 const packageJAONdiffMessage = execSync(`git diff HEAD ${__dirname + '/package.json'}`).toString().trim()
+console.log(`git diff HEAD ${__dirname + '/package.json'}`)
 if(packageJAONdiffMessage) {
     let name = execSync('git show -s --format=%cn').toString().trim()
     console.error("package.json有修改,请确认是否有新的依赖引入，注意考察其兼容性")
@@ -16,9 +17,9 @@ async function postMessage(name, text) {
             "content": content
         }
     }).then(res => {
-        process.exit(0)
+        process.exit(1)
     }).catch(err => {
-        process.exit(0)
+        process.exit(1)
     })
 }
 
