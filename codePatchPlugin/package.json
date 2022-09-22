@@ -1,6 +1,6 @@
 {
   "name": "code-patch-plugin",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "This is a plug-in created by shanks",
   "main": "index.js",
   "scripts": {
