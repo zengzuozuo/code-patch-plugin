@@ -1,6 +1,6 @@
 {
   "name": "commit-warning",
-  "version": "1.0.2",
+  "version": "1.0.5",
   "description": "git commit时对项目依赖进行检测",
   "main": "index.js",
   "scripts": {
@@ -8,11 +8,13 @@
   },
   "keywords": [
     "commit",
-    "package"
+    "package",
+    "git"
   ],
   "author": "shanksZeng",
   "license": "ISC",
-  "dependencies": {
-    "axios": "^0.27.2"
+  "devDependencies": {},
+  "bin": {
+    "commit-warning": "bin/index.js"
   }
 }

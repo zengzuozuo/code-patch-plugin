@@ -1,0 +1,61 @@
+{
+  "_from": "git-warning",
+  "_id": "git-warning@0.0.6",
+  "_inBundle": false,
+  "_integrity": "sha512-JV+FSt8Awmfgd1BySDMPQNovYBNF7ZTqL2ukDAhZwO9mUfsa1GqGGxGrVzEgrQf4uvP98QNRgVfMV01J5B6PmQ==",
+  "_location": "/git-warning",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "git-warning",
+    "name": "git-warning",
+    "escapedName": "git-warning",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#DEV:/",
+    "#USER"
+  ],
+  "_resolved": "http://npm.stary.ltd:80/git-warning/-/git-warning-0.0.6.tgz",
+  "_shasum": "5689fbe01e65af307acb0e138c4e2dd52e256027",
+  "_spec": "git-warning",
+  "_where": "D:\\project\\myplugin-test",
+  "author": "",
+  "bin": {
+    "git-warning": "bin/index.js"
+  },
+  "bugs": {
+    "url": "https://github.com/AntmJS/antm/issues/new"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "commander": "^8.1.0",
+    "nodemailer": "^6.6.3"
+  },
+  "deprecated": false,
+  "description": "指定文件，在git commit提交的时候，将文件更改内容通知到微信、钉钉、飞书等聊天群或者发送到指定的邮箱",
+  "homepage": "https://github.com/AntmJS/antm#readme",
+  "keywords": [
+    "antmjs",
+    "git",
+    "git commit pre",
+    "warning",
+    "webhooks"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "name": "git-warning",
+  "publishConfig": {
+    "access": "public",
+    "registry": "http://registry.npmjs.org"
+  },
+  "repository": {
+    "type": "https",
+    "url": "git+https://github.com/AntmJS/antm.git"
+  },
+  "version": "0.0.6"
+}

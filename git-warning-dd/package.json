@@ -1,0 +1,53 @@
+{
+  "_from": "git-warning-dd",
+  "_id": "git-warning-dd@0.0.2",
+  "_inBundle": false,
+  "_integrity": "sha512-NIBFEkRtfkZp4ip5k8sW1pp+qzJ/latSM7ad30DTmx/gTJRJvSKctdveweX4uCeKJNehXAF9KJR88KI5OWiQIw==",
+  "_location": "/git-warning-dd",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "git-warning-dd",
+    "name": "git-warning-dd",
+    "escapedName": "git-warning-dd",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#DEV:/",
+    "#USER"
+  ],
+  "_resolved": "http://npm.stary.ltd:80/git-warning-dd/-/git-warning-dd-0.0.2.tgz",
+  "_shasum": "b2c261153c8559c1a888a5d99118b5316a48efc5",
+  "_spec": "git-warning-dd",
+  "_where": "D:\\project\\myplugin-test",
+  "author": "",
+  "bin": {
+    "git-warning-dd": "bin/index.js"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "diff": "^5.0.0",
+    "git-last-commit": "^1.0.0",
+    "shelljs": "^0.8.4"
+  },
+  "deprecated": false,
+  "description": "指定文件，在git commit提交的时候，钉钉通知到群组展示文件内容的修改",
+  "keywords": [
+    "git",
+    "git commit",
+    "ding",
+    "warning"
+  ],
+  "license": "ISC",
+  "main": "index.js",
+  "name": "git-warning-dd",
+  "repository": {
+    "monitorFiles": [
+      "./package.json"
+    ]
+  },
+  "version": "0.0.2"
+}

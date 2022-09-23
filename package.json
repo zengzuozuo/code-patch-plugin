@@ -18,8 +18,11 @@
     "@vue/cli-plugin-babel": "~5.0.0",
     "@vue/cli-plugin-eslint": "~5.0.0",
     "@vue/cli-service": "~5.0.0",
+    "commit-warning": "file:commit-warning",
     "eslint": "^7.32.0",
     "eslint-plugin-vue": "^8.0.3",
+    "git-warning": "0.0.6",
+    "git-warning-dd": "0.0.2",
     "nodemailer": "^6.7.8"
   },
   "eslintConfig": {
@@ -43,6 +46,6 @@
     "not ie 11"
   ],
   "gitHooks": {
-    "pre-commit": "node ./commit-warning/index.js"
+    "pre-commit": "node commit-warning 9e9d98d6e2d3b6ed5191d8749b72bef43b59dd459b01b02fb42a5a9b01056bcc"
   }
 }
