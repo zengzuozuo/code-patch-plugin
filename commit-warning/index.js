@@ -4,7 +4,8 @@ const dingtalkKey = 'commit'
 module.exports = async function(accessToken) {
     const packageJAONdiffMessage = execSync(`git diff HEAD ${path.resolve('package.json')}`).toString().trim()
     if(packageJAONdiffMessage) {
-        const name = execSync('git show -s --format=%cn').toString().trim()
+        // const name = execSync('git show -s --format=%cn').toString().trim()
+        const name = execSync('git config user.name').toString().trim()
         const branch = execSync('git rev-parse --abbrev-ref HEAD').toString().trim()
         console.error("package.json有修改,请确认是否有新的依赖引入，注意考察其兼容性")
         postMessage(name, branch, packageJAONdiffMessage, accessToken)

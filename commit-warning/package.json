@@ -1,6 +1,6 @@
 {
   "name": "commit-warning",
-  "version": "1.0.5",
+  "version": "1.0.7",
   "description": "git commit时对项目依赖进行检测",
   "main": "index.js",
   "scripts": {

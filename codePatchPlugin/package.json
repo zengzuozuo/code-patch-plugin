@@ -1,6 +1,6 @@
 {
   "name": "code-patch-plugin",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "This is a plug-in created by shanks",
   "main": "index.js",
   "scripts": {
@@ -14,5 +14,11 @@
     "cheerio": "^1.0.0-rc.12",
     "html-minifier": "^4.0.0",
     "uglify-js": "^3.17.0"
-  }
+  },
+  "keywords": [
+    "es6",
+    "codePatch",
+    "plugin",
+    "patch"
+  ]
 }
